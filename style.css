@@ -1,0 +1,88 @@
+
+
+.navbar-nav{
+
+  display: flex;
+  justify-content: flex-end;
+}
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #201f22;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  color: #f0f0f0;
+}
+
+#welcome-section p{
+  color: #42b983;
+}
+
+#projects{
+  background-color: #42b983;
+}
+
+h2{
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.project-tile {
+  padding: 20px;
+}
+
+.project-tile img {
+
+  max-width: 500px;
+  max-height: 290px;
+  display: block;
+  margin: auto;
+}
+
+.project-tile p {
+  padding: 10px;
+  margin: auto;
+  background: #444857;
+  color: white;
+  max-width: 500px;
+  text-align: center;
+  }
+
+
+#contact {
+      background-color: #42b983;
+}
+
+.contact-links {
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+  #projects {
+    background-color: #be3144;
+
+  }
+
+  #contact {
+    background-color: #be3144;
+
+  }
+
+
+}
